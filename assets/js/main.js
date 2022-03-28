@@ -21,15 +21,23 @@ for ( let i = 1; i < 101; i++){
 
     const listItem = `<li> ${i}</li>`;
     listHtml.innerHTML = listHtml.innerHTML + listItem;
+    document.getElementById("list").style.fontSize = "100px"
     
 }
     
 
-
-
-
-
-
 //creazione square
+
+// const listsquare = document.querySelector("square")
+// for ( let a = 1; a < 101; a++){
+//     console.log(a)
+//     const squareitem = `<div.square> ${a}<div.square/>`;
+//     listsquare.innerHTML = listsquare.innerHTML + squareitem;
+    
+// }
+
+
+
+
 
 
