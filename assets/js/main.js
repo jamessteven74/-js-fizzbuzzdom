@@ -17,9 +17,21 @@ const listHtml = document.getElementById("list");
 
 
 for ( let i = 1; i < 101; i++){
-    console.log(i)
+    console.log(i);
+    let listItem = `<li class="square">${i}</li>`;
 
-    const listItem = `<li> ${i}</li>`;
+    if(i % 3 == 0) {
+        listItem = `<li class="square">fizz</li>`;
+    }
+
+    if(i % 5 == 0){
+        listItem = `<li class="square">buzz</li>`;
+    }
+
+    if(i % 15 == 0){
+        listItem = `<li class="square">fizzbuzz</li>`;
+    }
+
     listHtml.innerHTML = listHtml.innerHTML + listItem;
     document.getElementById("list").style.fontSize = "100px"
     

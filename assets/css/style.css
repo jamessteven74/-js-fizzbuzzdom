@@ -5,10 +5,12 @@ ul{
 /* Utilities */
 .d_flex{
     display: flex;
+    flex-wrap: wrap;
 }
 
 .square{
-    width: 100px;
-    height: 100px;
+    width: 200px;
+    height: 200px;
     background-color: aqua;
+    margin:8px 2px;
 }
