@@ -12,7 +12,8 @@ const listHtml = document.getElementById("list")
 for ( let i = 1; i < 101; i++){
     console.log(i)
 
-    const listItem = `<li>elemento lista n° ${i}</li>`;
+    const listItem = `<li>${i}</li>`;
+    listHtml.innerHTML = listHtml.innerHTML + listItem;
 
 }
     
